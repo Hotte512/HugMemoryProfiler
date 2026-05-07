@@ -1,3 +1,7 @@
+This is a Vibe Coded Plugin I made with Claude, this Version is not tested yet!
+I did use the File Based Loggin v1 with SW6.6.10.
+
+
 # SwpMemoryProfiler
 
 Profiles peak memory usage per HTTP request in Shopware 6. Stores data in MySQL, provides admin dashboard with filters, CLI commands, and daily auto-cleanup.
