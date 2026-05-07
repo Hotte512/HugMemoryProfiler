@@ -3,7 +3,7 @@
     "description": "Profiles request peak memory usage in Shopware 6 with admin dashboard",
     "version": "2.0.0",
     "type": "shopware-platform-plugin",
-    "license": "MIT",
+    "license": "AGPL-3.0",
     "authors": [
         { "name": "Horst" }
     ],
