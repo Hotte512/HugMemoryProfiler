@@ -80,4 +80,4 @@ ddev exec vendor/bin/phpstan analyse src
 
 ## License
 
-MIT
+AGPL-3.0
