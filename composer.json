@@ -1,0 +1,29 @@
+{
+    "name": "swp/memory-profiler",
+    "description": "Logs peak memory usage, route and duration per request for Shopware 6",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "AGPL-3.0",
+    "authors": [
+        { "name": "Horst" }
+    ],
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Swp\\MemoryProfiler\\SwpMemoryProfiler",
+        "label": {
+            "de-DE": "Memory Profiler",
+            "en-GB": "Memory Profiler"
+        },
+        "description": {
+            "de-DE": "Loggt Peak-Memory pro Request",
+            "en-GB": "Logs peak memory per request"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swp\\MemoryProfiler\\": "src/"
+        }
+    }
+}
