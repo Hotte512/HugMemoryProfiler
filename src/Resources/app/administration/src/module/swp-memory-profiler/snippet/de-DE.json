@@ -1,0 +1,15 @@
+{
+    "swp-memory-profiler": {
+        "general": {
+            "mainMenuItemTitle": "Memory Profiler",
+            "descriptionTextModule": "Peak-Memory pro Request analysieren"
+        },
+        "stats": {
+            "title": "Statistik"
+        },
+        "actions": {
+            "refresh": "Aktualisieren",
+            "clear": "Daten löschen"
+        }
+    }
+}

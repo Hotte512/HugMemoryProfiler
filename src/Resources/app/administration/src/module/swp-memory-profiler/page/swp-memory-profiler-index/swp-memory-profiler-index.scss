@@ -1,0 +1,75 @@
+.swp-memory-profiler-index {
+    .swp-memory-stats__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    .swp-stat-box {
+        background: #f9fafb;
+        border-radius: 4px;
+        padding: 16px;
+        border-left: 3px solid #189eff;
+
+        &__label {
+            font-size: 12px;
+            color: #6c7a87;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        &__value {
+            font-size: 24px;
+            font-weight: 600;
+            color: #303f4d;
+
+            &--small {
+                font-size: 12px;
+                font-weight: 400;
+                color: #758c9c;
+            }
+        }
+    }
+
+    .swp-stats-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 8px;
+
+        th, td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e6eb;
+        }
+
+        th {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #6c7a87;
+            font-weight: 600;
+        }
+    }
+
+    .swp-filters__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+    }
+
+    .swp-path {
+        font-family: monospace;
+        font-size: 12px;
+        word-break: break-all;
+    }
+
+    .is--critical {
+        color: #de294c;
+        font-weight: 600;
+    }
+
+    .is--warning {
+        color: #f88962;
+        font-weight: 600;
+    }
+}
